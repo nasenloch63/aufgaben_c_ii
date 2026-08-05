@@ -5,8 +5,15 @@ int main(void) {
     int laenge = sizeof(array) / sizeof(array[0]);
     int umgekehrt[laenge];
 
-    // Erste SChleife: Werte rückwärts kopieren
+    for (int i = 0; i < laenge; i++)
+    {
+        umgekehrt[i] = array[laenge - 1 - i];
+    }
 
-    // Zweite Schleife: neues Array ausgeben
+    for (int i = 0; i < laenge; i++)
+    {
+        printf("%d ", umgekehrt[i]);
+    }
+    printf("%d\n");
 return 0;
 }
