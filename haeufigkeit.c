@@ -19,4 +19,5 @@ int main (void)
             hauefigkeit[i]
         );
     }
+    return 0;
 }
