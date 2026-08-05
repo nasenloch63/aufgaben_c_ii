@@ -14,6 +14,6 @@ int main(void) {
     {
         printf("%d ", umgekehrt[i]);
     }
-    printf("%d\n");
+    
 return 0;
 }
