@@ -8,4 +8,5 @@ int main(void) {
     {
         laenge++
     }
+return 0;
 }
