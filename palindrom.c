@@ -6,7 +6,7 @@ int main(void) {
     int laenge = 0;
     while (text[laenge] != "\0")
     {
-        laenge++
+        laenge++;
     }
 return 0;
 }
