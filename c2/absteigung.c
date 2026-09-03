@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main (void) {
-    for (int = 20; i >= 2; i--)
-    print("%d\n")
+    for (int i = 20; i >= 2; i -= 2)
+    printf("%d\n");
 
-
+return 0;
 }
