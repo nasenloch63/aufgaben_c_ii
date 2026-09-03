@@ -2,7 +2,7 @@
 
 int main (void) {
     for (int i = 20; i >= 2; i -= 2)
-    printf("%d\n");
+    printf("%d\n", i);
 
 return 0;
 }
