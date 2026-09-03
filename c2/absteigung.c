@@ -1,5 +1,8 @@
 #include <stdio.h>
 
 int main (void) {
-    for 
+    for (int = 20; i >= 2; i--)
+    print("%d\n")
+
+
 }
